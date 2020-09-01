@@ -1,0 +1,28 @@
+{
+	"name": "tiptap-extension-subscript",
+	"version": "0.1.0",
+	"description": "Adds subscript support to tiptap.",
+	"license": "MIT",
+	"repository": "hanspagel/tiptap-extension-subscript",
+	"author": {
+		"name": "Hans Pagel",
+		"email": "hans.pagel@ueber.io",
+		"url": "https://ueberdosis.io"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"tiptap",
+		"extension",
+		"subscript"
+	],
+	"dependencies": {
+		"tiptap": "^1.29.6",
+		"tiptap-commands": "^1.14.6"
+	},
+	"devDependencies": {}
+}
