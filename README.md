@@ -1,25 +1,25 @@
-# Tiptap Extension: Superscript
+# Tiptap Extension: Subscript
 
 ## Install
 
 NPM
 ```
-$ npm install tiptap-extension-superscript
+$ npm install tiptap-extension-subscript
 ```
 
 Yarn
 ```
-$ yarn add tiptap-extension-superscript
+$ yarn add tiptap-extension-subscript
 ```
 
 ## Usage
 
 ```js
-import { Superscript } from 'tiptap-extension-superscript'
+import { Subscript } from 'tiptap-extension-subscript'
 
 new Editor({
   extensions: [
-    new Superscript(),
+    new Subscript(),
   ],
 })
 ```
